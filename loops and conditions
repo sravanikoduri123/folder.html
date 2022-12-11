@@ -1,0 +1,59 @@
+//conditionls-if and else
+// letage=20;
+// if (age >= 18)
+//  console.log('eligible to  vote')
+//  else
+//  console.log('not eligible to vote')
+
+ //lets test a condition
+ //if there is a tournament who can play ppl age greater than 16 and leser than 24 are eligible to play
+//  let age=prompt('enter the player age');
+//  if (age >=16){
+//     if (age <=24){
+//         console.log('eligible to play')
+//     }
+//     else{
+//         console.log('age is more than 24')
+
+//     }
+//  }
+//  else{
+//      console.log('age is less than 16')
+//   }
+
+  //multiple conditions
+//   let condition = 'cold'
+
+//   if(condition == 'sunny')
+//    console.log('wear normal cloths!');
+//    else if(condition == 'rainy')
+//    console.log('wear normal clothes');
+//    else if(condition == 'cold')
+//    console.log('wear jacket');
+//    else{
+//    console.log('error')
+//    }
+
+
+//ternary operator(to write code easily)
+// age = 18;
+// age >= 18 ? console.log('eligible') : console.log('not eligible')
+//? = if
+//: = else
+
+//loops
+//for loop
+// for (let i=1; i<=10; i++ ){
+//     console.log(i)
+// }
+
+// let number = prompt('enter a number') //this indicates we can give any number
+for (let i=1; i<=10; i++){
+    if (i%2 ==0){
+        console.log(i, 'is even')
+    }
+    else{
+        console.log(i, 'is odd')
+    }
+//     console.log(i*number)
+}
