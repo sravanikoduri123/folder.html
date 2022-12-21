@@ -1,0 +1,91 @@
+//function is a block of code that can perform the specific task 
+//for which we have defined the function when we want
+//this is body of function
+//this doesnt work because we are not calling function
+function grinder(items){
+  console.log('grinding...',items)
+}
+//this is calling a function 
+grinder('tomatoes');
+//we can call a func multiple times to run multiple times
+grinder('onions');
+grinder();
+
+// function add(num1,num2){
+//     console.log(num1+num2)
+// }
+// add(1,2)
+// add(100,200)
+
+
+// //we can even call by creating variables
+// a = 5;
+// b = 5;
+// add(a,b)
+
+
+// function add(num1,num2){
+//   console.log(num1+num2)
+// }
+// add(1,2)
+// add(50,50)
+
+
+// function add(num1,num2){
+//   let sum=(num1+num2)
+// }
+
+// let a = 2;
+// let b = 3;
+// add(a,b)
+// console.log(sum);
+
+// function add(num1,num2){
+//   return (num1+num2)
+// }
+
+// let a = 2;
+// let b = 3;
+// let sum= add(a,b)
+// console.log(sum);
+
+
+
+// function sqr(n){
+//   return n*n
+// }
+
+// let result=sqr(6)
+// console.log(result)
+
+let a = 10;
+var b = 2;
+const c = 3;
+
+function sqr(){
+  console.log(a)
+}
+
+sqr()
+
+
+//function to calculate the tax
+//person who gets salary lessthan 3lpa has no tax deductions
+//person who gets salary less than 6lpa has deductions => 10% over 3 lakhs
+//salary is greater than 6 lpa then 20% deduction on excess amt
+
+
+function taxcalculation(salary,name){
+  if(salary <= 300000){
+    console.log('no tax deduction')
+  }
+  //less than 6lpa
+   else if(salary <= 600000){
+    let deductions = (salary - 300000) *0.1;
+        console.log(deductions)
+  }
+
+}
+
+taxcalculation(200000,'sravani')
+
